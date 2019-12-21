@@ -45,9 +45,9 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
 holiday_hash.each {|seasons, supplies|
   binding.pry
-  if season == seasons do 
-  holiday_hash[season] = {holiday_name => supply_array} end
-  return holiday_hash
+  # if season == seasons do 
+  # holiday_hash[season] = {holiday_name => supply_array} end
+  # return holiday_hash
 
 end
 
