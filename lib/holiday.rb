@@ -19,7 +19,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # }
   # return the second element in the 4th of July array
   holiday_hash[:summer][:fourth_of_july][1]
-  # .each_with_index {|element, i| return element if i == 1 }
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -30,10 +29,12 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     supplies.push(supply)
   end
 
+
 end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
+  holiday_hash[:spring][:memorial_day].push(supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
 
