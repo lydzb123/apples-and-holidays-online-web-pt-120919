@@ -45,7 +45,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
 holiday_hash.each do |seasons, supplies|
   if season == seasons
-  holiday_hash[season] = {holiday_name => supply_array} end
+  holiday_hash[season][holiday_name] = supply_array} end
 end
   # if season == seasons do
   # holiday_hash[season] = {holiday_name => supply_array} end
