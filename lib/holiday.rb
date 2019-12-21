@@ -18,7 +18,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #   }
   # }
   # return the second element in the 4th of July array
-  holiday_hash[:summer].values.each_with_index {|element, i| if i == 1 return element}
+  holiday_hash[:summer].values.each_with_index {|element, i| if i == 1 return element end}
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
