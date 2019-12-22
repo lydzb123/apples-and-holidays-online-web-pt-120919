@@ -73,8 +73,8 @@ end
 #   }
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season, holiday| binding.pry
-    print "#{season.capitalize}:
+  holiday_hash.each do |season, holiday|
+    print "#{season.capitalize}: binding.pry
       #{holiday.each do |holiday_name, supply_list|
       holiday_name.to_string}"
 
