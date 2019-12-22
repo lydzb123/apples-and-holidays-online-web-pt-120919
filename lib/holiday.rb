@@ -85,14 +85,13 @@ end
 def all_holidays_with_bbq(holiday_supplies)
 
   holiday_supplies.each do |season, holiday|
-    holidays_with_bbqs = []
-    if holiday.values.each do |holiday_name, item|
-      if holiday_name.include?("BBQ")
-      holidays_with_bbqs << "#{holiday}"
+    holiday.each.collect do |name, supply|
+      if supply.include?("BBQ")
+        bolidays_with_bbqs << name
       end
     end
-    end
   end
+  holidays_with_bbqs
 end
 
 
