@@ -90,8 +90,9 @@ def all_holidays_with_bbq(holiday_supplies)
         holidays_with_bbqs =[]
         holidays_with_bbqs << "#{name}"
       end
+      return holidays_with_bbqs
+
     end
-    return holidays_with_bbqs
   end
 end
 
