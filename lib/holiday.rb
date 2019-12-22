@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 
-print all_supplies_in_holidays()
+print all_supplies_in_holidays(holiday_hash)
 
 
 
