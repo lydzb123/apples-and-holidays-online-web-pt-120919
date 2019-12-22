@@ -90,10 +90,11 @@ def all_holidays_with_bbq(holiday_supplies)
       if supply.include?("BBQ")
         holidays_with_bbqs << "#{name}"
       end
-      return holidays_with_bbqs
+
 
     end
   end
+    return holidays_with_bbqs
 end
 
 
