@@ -91,9 +91,6 @@ def all_holidays_with_bbq(holiday_supplies)
        return name
       end
 
-
-
-  end
 end
 
 
