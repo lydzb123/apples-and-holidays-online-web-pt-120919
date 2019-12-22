@@ -74,9 +74,8 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
-    print "#{season.capitalize}:" 
+    print "#{season.capitalize}:"
     end
-    binding.pry
 end
 
 
