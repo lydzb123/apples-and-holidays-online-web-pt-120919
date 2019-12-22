@@ -91,7 +91,7 @@ def all_holidays_with_bbq(holiday_supplies)
         arr << holiday_name
       end
     end
-
+arr
   end
 
 end
