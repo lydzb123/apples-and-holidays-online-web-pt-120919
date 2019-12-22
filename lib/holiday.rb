@@ -88,7 +88,6 @@ def all_holidays_with_bbq(holiday_supplies)
     holidays_with_bbqs = []
     if holiday.values.include?("BBQ")
       holidays_with_bbqs << holiday
-
     else
 
     end
