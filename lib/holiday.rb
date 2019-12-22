@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
     print "#{season.capitalize}:
       #{holiday.each do |holiday_name, supply_list|
       holiday_name.to_string}"
-
+binding.pry
 
 
   # iterate through holiday_hash and print items such that your readout resembles:
