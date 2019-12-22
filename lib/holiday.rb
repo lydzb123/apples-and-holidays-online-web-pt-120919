@@ -91,6 +91,7 @@ def all_holidays_with_bbq(holiday_supplies)
       holidays_with_bbqs << "#{holiday}"
       end
     end
+    end
   end
 end
 
