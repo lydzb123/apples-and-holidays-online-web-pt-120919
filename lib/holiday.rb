@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
     end
 end
 
-all_supplies_in_holidays({
+puts all_supplies_in_holidays({
   :winter => {
     :christmas => ["Lights", "Wreath"],
     :new_years => ["Party Hats"]
