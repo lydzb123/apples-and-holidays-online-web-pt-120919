@@ -92,7 +92,6 @@ def all_holidays_with_bbq(holiday_supplies)
       end
     end
   end
-end
 
 end
 
