@@ -106,7 +106,7 @@ def all_holidays_with_bbq(holiday_hash)
 
     if holiday_name.each do |holiday_name, supply|
       if supply.include?("BBQ") do
-      holidays_with_bbqs << holiday_name.to_s.split("_").join(" ")
+      holidays_with_bbqs << holiday_name
       end
 
 
