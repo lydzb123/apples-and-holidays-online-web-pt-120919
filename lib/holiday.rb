@@ -94,7 +94,7 @@ def all_holidays_with_bbq(holiday_supplies)
     end
 
   end
-reutnr new_arr
+return new_arr
 end
 
 
