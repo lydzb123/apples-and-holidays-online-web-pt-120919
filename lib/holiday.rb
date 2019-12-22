@@ -90,6 +90,9 @@ def all_holidays_with_bbq(holiday_supplies)
       if supply.include?("BBQ")
        return holiday_name
       end
+    end
+  end
+end
 
 end
 
