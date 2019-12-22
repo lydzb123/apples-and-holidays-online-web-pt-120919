@@ -109,7 +109,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supply.include?("BBQ") do
       holidays_with_bbqs << holiday_name
       end
-
+    end
     end
   end
  print holidays_with_bbqs
