@@ -109,11 +109,12 @@ def all_holidays_with_bbq(holiday_hash)
       if supply.include?("BBQ") do
       holidays_with_bbqs << "#{name}"
       end
+      
     end
+holidays_with_bbqs    
     end
   end
   end
- return holidays_with_bbqs
 end
 
   # return an array of holiday names (as symbols) where supply lists
