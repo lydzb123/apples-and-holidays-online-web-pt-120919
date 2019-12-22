@@ -107,14 +107,14 @@ def all_holidays_with_bbq(holiday_hash)
 
     if holiday.each do |holiday, supply|
       if supply.include? ("BBQ") do
-        new_arr << holiday
+        holidays_with_bbqs << holiday
       end
     end
   end
 end
 
   end
- return new_arr
+ return holidays_with_bbqs 
 end
 
   # return an array of holiday names (as symbols) where supply lists
