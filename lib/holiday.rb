@@ -89,7 +89,6 @@ def all_holidays_with_bbq(holiday_supplies)
       if supply.include?("BBQ")
        print name
      else
-       false
       end
     end
   end
