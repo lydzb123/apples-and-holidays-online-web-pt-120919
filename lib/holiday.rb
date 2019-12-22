@@ -102,12 +102,11 @@ print all_supplies_in_holidays(holiday_hash)
 
 def all_holidays_with_bbq(holiday_hash)
   holidays_with_bbqs =[]
+
   holiday_hash.each do |season, holiday|
-
-    if holiday.each do |name, supply|
-
+    holiday.each.collect do |name, supply|
       if supply.include?("BBQ")
-        puts "#{name}"
+        return name
       end
     end
   end
