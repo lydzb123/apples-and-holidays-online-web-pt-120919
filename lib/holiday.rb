@@ -88,7 +88,7 @@ def all_holidays_with_bbq(holiday_supplies)
     holiday.each.collect do |name, supply|
       if supply.include?("BBQ")
         holidays_with_bbqs =[]
-        holidays_with_bbqs << name
+        holidays_with_bbqs << "#{name}""
       end
     end
   end
