@@ -102,14 +102,19 @@ print all_supplies_in_holidays(holiday_hash)
 
 def all_holidays_with_bbq(holiday_hash)
   holidays_with_bbqs =[]
-
   holiday_hash.each do |season, holiday|
 
     if holiday.each do |holiday, supply|
-      if supply.include?("BBQ") do
-      holidays_with_bbqs << holiday.to_s.split("_").join(" ")
+
+      supply.include?("BBQ")
+      # do
+      # holidays_with_bbqs << holiday.to_s.split("_").join(" ")
       end
+
+
     end
+
+
   end
 end
 
