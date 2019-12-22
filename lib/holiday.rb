@@ -56,7 +56,15 @@ def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
 end
 
-holiday_hash = {
+
+
+def all_supplies_in_holidays(holiday_hash)
+  holiday_hash.each do |season, holiday|
+    print "#{season.capitalize}:"
+    end
+end
+
+puts all_supplies_in_holidays({
   :winter => {
     :christmas => ["Lights", "Wreath"],
     :new_years => ["Party Hats"]
@@ -69,15 +77,7 @@ holiday_hash = {
   },
   :spring => {
     :memorial_day => ["BBQ"]
-  }
-
-def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season, holiday|
-    print "#{season.capitalize}:"
-    end
-end
-
-puts all_supplies_in_holidays(holiday_hash)
+  })
 
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
