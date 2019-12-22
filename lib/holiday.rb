@@ -107,9 +107,8 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday.each do |name, supply|
 
       if supply.include?("BBQ") do
-      holidays_with_bbqs << "#{name}"
+      "#{name}"
       end
-holidays_with_bbqs  
     end
 
     end
